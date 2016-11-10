@@ -68,9 +68,9 @@ function register_popup(id, name) {
     element = element + '<a href="javascript:close_popup(\'' + id + '\')" class="chat-close">x</a>';
     element = element + '<h4>' + name + '</h4></header>';
     element = element + '<div class="chat"><div class="chat-history"></div>';
-    element = element + '<p class="chat-feedback">Your partner is typing…</p>';
+    element = element + '<p class="chat-feedback">Tu amigo está escribiendo…</p>';
     element = element + '<form action="#">';
-    element = element + '<fieldset><input type="text" placeholder="Type your message…" autofocus>' +
+    element = element + '<fieldset><input type="text" placeholder="Escribe tu mensaje…" autofocus>' +
                 '<input type="hidden"></fieldset></form></div> <!-- end chat --></div> <!-- end live-chat -->';
 
     document.getElementById("popcontainer").innerHTML = document.getElementById("popcontainer").innerHTML + element;
