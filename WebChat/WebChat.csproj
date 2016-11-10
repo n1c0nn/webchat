@@ -127,6 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\app.css" />
+    <Content Include="assets\css\estilos_login.css" />
     <Content Include="assets\css\estilos_pagina.css" />
     <Content Include="assets\css\foundation.css" />
     <Content Include="assets\css\estilos_popup.css" />
@@ -137,6 +138,7 @@
     <Content Include="assets\js\scriptsUtils.js" />
     <Content Include="assets\js\signalr.js" />
     <Content Include="index.html" />
+    <Content Include="login.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
