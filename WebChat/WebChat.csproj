@@ -134,9 +134,11 @@
     <Content Include="assets\images\usuario.jpg" />
     <Content Include="assets\js\angular.js" />
     <Content Include="assets\js\app.js" />
+    <Content Include="assets\js\login.js" />
     <Content Include="assets\js\routes.js" />
     <Content Include="assets\js\scriptsUtils.js" />
     <Content Include="assets\js\signalr.js" />
+    <Content Include="index.html" />
     <Content Include="login.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">

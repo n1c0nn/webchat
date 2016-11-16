@@ -16,6 +16,13 @@ body {
 
 /* CHAT */
 
+
+    .navbar {
+      margin-bottom: 1px;
+      border-radius: 0;
+    }
+    
+  
 .nav {
   background: #434753;
   color: #434753;
@@ -41,39 +48,15 @@ a {
   overflow: hidden;
   height: 100%;
 }
-.ui .search input {
-  outline: none;
-  border: none;
-  background: none;
-}
-.ui .search {
-  position: relative;
-}
-.ui .search input[type=submit] {
-  font-family: 'FontAwesome';
-  position: absolute;
-  right: 25px;
-  top: 27px;
-  color: white;
-}
-.ui .search input[type=search] {
-  background-color: #696c75;
-  border-radius: 3px;
-  padding: 10px;
-  width: 90%;
-  box-sizing: border-box;
-  margin: 15px 10px;
-  color: #fff;
-}
 .ui .left-menu {
-  width: 20%;
+  width: 18%;
   box-sizing: content-box;
   padding-right: 1%;
   height: 100%;
   background: #434753;
 }
 .ui .chat {
-  width: 80%;
+  width: 82%;
   height: 100%;
   background: #f1f5f8;
 }
@@ -157,11 +140,9 @@ a {
 .ui .list-friends .on:after {
   background: #62bf6e;
 }
-.ui .top {
-  height: 70px;
-}
+
 .ui .messages {
-  height: calc(100% - 70px - 75px);
+  height: calc(100% - 70px - 70px);
   list-style: none;
   border: 2px solid #fff;
   border-left: none;
@@ -278,9 +259,7 @@ a {
 .ui .send {
   color: #7ac5ef;
   text-transform: uppercase;
-  font-weight: 700;
-  float: right;
-  margin-right: 5%;
+  font-weight: 1000;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -295,13 +274,13 @@ a {
 }
 
 #message {
-  height: 75px;
-  margin: 17px 5%;
-  width: 90%;
+  height: 55px;
+  margin: 8px 2%;
+  width: 95%;
   outline: none;
-  padding: 15px;
+  padding: 8px;
   border: none;
-  border-radius: 3px;
+  border-radius: 1px;
   resize: none;
 }
 
