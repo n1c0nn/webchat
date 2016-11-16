@@ -89,6 +89,5 @@ C:\Users\Ramon\Source\Repos\webchat\WebChat\bin\Microsoft.Owin.xml
 C:\Users\Ramon\Source\Repos\webchat\WebChat\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Users\Ramon\Source\Repos\webchat\WebChat\bin\Microsoft.Owin.Security.xml
 C:\Users\Ramon\Source\Repos\webchat\WebChat\bin\Newtonsoft.Json.xml
-C:\Users\Ramon\Source\Repos\webchat\WebChat\obj\Debug\WebChat.csprojResolveAssemblyReference.cache
 C:\Users\Ramon\Source\Repos\webchat\WebChat\obj\Debug\WebChat.dll
 C:\Users\Ramon\Source\Repos\webchat\WebChat\obj\Debug\WebChat.pdb
