@@ -1,4 +1,8 @@
-﻿.modal-header, h4, .close {
+﻿
+body{
+    background-color:#f1f5f8;
+}
+.modal-header, h4, .close {
       background-color: #434753;
       color:white !important;
       text-align: center;

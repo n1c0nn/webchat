@@ -2,7 +2,8 @@
 
     // Declare a proxy to reference the hub. 
     var chat = $.connection.chatHub;
-    var user = document.getElementById("uname").value;
+    var user;
+    user = $('#uname').val();
 
         // Create a function that the hub can call to broadcast messages.
         chat.client.sentMessage = function (name, message, time) {
