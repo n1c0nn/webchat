@@ -12,13 +12,13 @@
         $(document).ready(function () {
             $('#id01').modal('show');
         });
-        //$(document).ready(function () {
-        //    $('#id01').foundation('reveal', 'open')
-        //});
-        //$(window).load(function () {
-        //    $('#id01').modal('show');
-        //});
-    </script>    
+    </script>  
+    <script type="text/javascript">
+        function input() {
+            impt = document.getElementById('uname').value;
+            localStorage.setItem("uname", impt);
+        }
+    </script>      
 </head>
 <body>
     <nav class="navbar navbar-inverse">
@@ -52,7 +52,7 @@
                         <div class="checkbox">
                             <label><input type="checkbox" value="" checked>Recordarme</label>
                         </div>
-                        <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+                        <button type="submit" class="btn btn-success btn-block" onclick="input()"><span class="glyphicon glyphicon-off"></span> Login</button>
                     </form>
                 </div>
                 <div class="modal-footer" style="padding-left:50px; padding-right:50px">
@@ -61,8 +61,7 @@
                     <p>Olvidó la <a href="#">Contraseña?</a></p>
                 </div>
             </div>
-
         </div>
-    </div>
+    </div>      
 </body>
 </html>
